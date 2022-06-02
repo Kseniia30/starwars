@@ -1,0 +1,93 @@
+.hero {
+    
+}
+.hero__container {
+    position: relative;
+}
+.darth-vader {
+    position: absolute;
+    right: 0;
+    bottom: -70px;
+}
+
+.death-star {
+    position: absolute;
+    bottom: -90px;
+    right: 400px;
+    opacity: 0.4;
+}
+
+.hero__text {
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--theme-main);
+
+    &--right {
+        color: var(--theme-moto-text);
+        z-index: 100;
+        margin-left: 472px;
+    }
+}
+
+.hero__top-text {
+    font-style: italic;
+    font-weight: 700;
+    font-size: 46px;
+    line-height: 1.30;
+    letter-spacing: 0.02em;
+    color: var(--theme-accent);
+    margin-top: 16px;
+    margin-bottom: 24px;
+}
+
+.hero-list {
+    list-style: disc;
+    color: var(--theme-accent);
+}
+
+.hero-list__item {
+    &:not(:last-child) {
+        margin-bottom: 8px;
+    }
+}
+
+.hero__btn {
+    margin-top: 24px;
+    background-color: var(--theme-accent);
+    color: var(--theme-btn-text);
+    border-radius: 38px;
+    font-weight: 400;
+    font-size: 16px;
+    padding: 16px 32px;
+    margin-bottom: 104px;
+}
+
+.hero__down-text {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.hero-contacts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    right: 0;
+    margin-right: 95px;
+    top: 16px;
+}
+
+.hero-contacts__item {
+    &:not(:last-child) {
+        margin-bottom: 20px;
+    }
+}
+
+.hero-contacts__link {}
+
+.hero-contacts__icon {
+    fill: var(--theme-accent);
+    width: 24px;
+    height: 24px;
+}

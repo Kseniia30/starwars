@@ -19,7 +19,7 @@ let currentTheme = 'dark';
 const element = document.documentElement;
 
 function switchTheme () {
-    const aboutMeContainer = document.querySelector('.about');
+    const aboutMeContainer = document.querySelector('.first-page');
     const factsContainer = document.querySelector('.codex');
 
     if (currentTheme === 'dark') {
@@ -30,7 +30,7 @@ function switchTheme () {
         element.style.setProperty('--theme-btn-text', lightTheme.btnText);
         element.style.setProperty('--theme-moto-text', '#7a7982');
 
-        aboutMeContainer.classList.add('about--light');
+        aboutMeContainer.classList.add('first-page--light');
         factsContainer.classList.add('codex--light');
 
         currentTheme = 'light';
@@ -42,7 +42,7 @@ function switchTheme () {
         element.style.setProperty('--theme-btn-text', darkTheme.btnText);
         element.style.setProperty('--theme-moto-text', '#7a7982');
 
-        aboutMeContainer.classList.remove('about--light');
+        aboutMeContainer.classList.remove('first-page--light');
         factsContainer.classList.remove('codex--light');
 
         currentTheme = 'dark';

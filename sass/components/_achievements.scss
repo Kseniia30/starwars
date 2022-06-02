@@ -1,0 +1,43 @@
+.achievements {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: var(--theme-bgd);
+}
+
+.achievements__top-text {
+    font-weight: 700;
+    font-size: 16px;
+    color: var(--theme-accent);
+    margin-bottom: 60px;
+}
+
+.achievements-list {
+    display: flex;
+}
+
+.achievements-list__item {
+    width: 275px;
+    &:not(:last-child) {
+        margin-right: 24px;
+    }
+}
+
+.achievements-list__icon {
+    fill: var(--theme-accent);
+    width: 60px;
+    height: 60px;
+    margin-bottom: 32px;
+}
+
+.achievements-list__top-text {
+    font-weight: 700;
+    font-size: 16px;
+    color: var(--theme-accent);
+    margin-bottom: 4px;
+}
+
+.achievements-list__text {
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--theme-main);
+}

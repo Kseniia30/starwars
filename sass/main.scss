@@ -1,0 +1,18 @@
+@import './utils/normalize';
+@import './utils/vars';
+@import './base/reset';
+@import './base/common';
+
+
+@import './components/logo';
+@import './components/header';
+
+@import './components/hero';
+@import './components/achievements';
+@import './components/codex';
+@import './components/footer';
+@import './switcher/style-to-add';
+@import './switcher/switcher';
+
+@import './components/modal';
+@import './components/modal-check';

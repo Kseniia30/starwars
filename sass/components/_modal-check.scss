@@ -1,0 +1,36 @@
+.modal_success {
+    padding: 80px 40px 88px 40px;
+    background-color: var(--theme-bgd);
+    width: 600px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.modal_success_title {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 112px;
+    text-align: center;
+    color: var(--theme-accent);
+}
+
+.modal_success_text {
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: var(--theme-main);
+    margin-bottom: 36px;
+}
+
+.modal-active {
+    opacity: 1;
+    pointer-events: all;
+}
+.modal__last-icon {
+    width: 60px;
+    height: 60px;
+    fill: var(--theme-accent);
+}

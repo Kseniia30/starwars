@@ -1,0 +1,53 @@
+.codex {
+    background-image: url(../img/space.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 186px;
+    padding-bottom: 186px;
+}
+
+.codex-container {
+    display: flex;
+}
+
+
+.codex__top-text {
+    font-style: italic;
+    font-weight: 700;
+    font-size: 46px;
+    line-height: 1.30;
+    letter-spacing: 0.02em;
+    color: var(--theme-accent);
+}
+
+.codex__text-part {
+    margin-left: 24px;
+}
+
+.codex__name {
+    font-weight: 700;
+    font-size: 16px;
+    color: var(--theme-accent);
+    margin-bottom: 32px;
+}
+
+.codex-list {}
+
+.codex-list__item {
+    &:not(:last-child) {
+        margin-bottom: 4px;
+    }
+}
+
+.codex-list__text {
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--theme-main);
+}
+
+.codex__last-text {
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--theme-main);
+    margin-top: 60px;
+}
